@@ -1,6 +1,12 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 nav {
-  width: 80%;
-  margin: 0 auto;
+  height: 60px;
+  margin: 0;
+  font-family: Roboto, sans-serif;
 }
 nav > a {
   text-decoration: none;

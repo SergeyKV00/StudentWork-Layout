@@ -2,26 +2,48 @@ body {
   padding: 0;
   margin: 0;
 }
-
 nav {
   height: 60px;
   margin: 0;
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 nav > a {
+  margin: 18px 4.17% 0 0;
+  color: #505F98;
   text-decoration: none;
-  color: #0000FF;
-  border-radius: 3px;
-  padding: 5px 30px;
-  float: right;
+  float: left;
+}
+nav > a:first-child {
+  margin-left: 11.46%;
 }
 nav > a:hover {
-  background-color: #191970;
-  color: white;
+  text-decoration: underline;
 }
 .logo {
-  color: blue;
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 50%;
+  position: absolute;
+  color: #37447E;
+  font-size: 26px;
+  font-weight: 900;
+  top: 12px;
+  left: 47.12%;
+  right: 47.39%;
+}
+#butBuyNow {
+  font-weight: 500;
+  font-size: 12px;
+  width: 160px;
+  height: 26px;
+  margin: 14px 11.46% 0 0;
+  color: white;
+  background-color: #111B47;
+  border-radius: 2px;
+  border: none;
+  float: right;
+}
+
+#butBuyNow:hover {
+  background-color: #FFD166;
+  color: #111B47;
 }

@@ -11,14 +11,26 @@ body {
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
+  z-index: -1;
 }
 .top-header > h1 {
   font-weight: 500;
   font-size: 50px;
   color: #Q91133;
-  width: 540px;
+  width: 539px;
   height: 132px;
-  margin: 303px 0 0 11.12%;
+  margin: 243px 0 0 11.12%;
+}
+.top-header > span {
+  display: inline-block;
+  width: 539px;
+  height: 164px;
+  margin: 0 0 0 11.12%;
+}
+.top-header span > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #505F98;
 }
 .designer-img {
   position: absolute;
@@ -29,6 +41,7 @@ body {
   background: url('../Image/Group.png') no-repeat;
   background-size: contain;
   background-position: right;
+  z-index: -1;
 }
 .header-nav {
   width: 77.08%;

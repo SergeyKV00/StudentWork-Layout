@@ -86,12 +86,17 @@ body {
   color: #111B47;
 }
 
+
+/*Footer*/
+
 .footer{
   width: 100%;
-  /*height: 4.66%;*/
+  margin: 4412px 0 0 0;
   height: 216px;
   background: #E7ECFF;
+  overflow: hidden;
 }
+
 .footer-logo {
   position: absolute;
   color: #37447E;
@@ -99,14 +104,49 @@ body {
   font-weight: 900;
   left: 47.12%;
   right: 47.39%;
+  height: 38px;
+  margin-top: 61px;
 }
 
-.footer-nav-a {
+.copyright {
+  position: absolute;
+  color: #939EA4;
+  font-size: 14px;
+  font-weight: 500;
+  left: 11.5%;
+  height: 24px;
+  margin-top: 68px;
+}
+
+.footer-nav{
+  width: 77.08%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-nav > .href-nav {
   color:#929ECC;
+  margin: 24px 4.17% 0 0;
+  text-decoration: none;
+  float: left;
+}
+
+.footer-nav > .href-icon {
+  color: #B0B8BC;
+  margin: 24px 0 0 2.08%;
+  text-decoration: none;
+  float: right;
+}
+
+.footer-nav > a:hover {
+  text-decoration: underline;
 }
 
 .hr-line{
-  margin: 0px;
+  margin: 139px 0px 0 0;
   border: none;
+  width: 77.08%;
   border-top: 1px solid #CDD1D4;
 }

@@ -21,14 +21,14 @@ body {
   color: #505F98;
   margin-bottom: 0;
 }
-.block-span {
-  display: block;
-  width: 540px;
-}
 .content-block {
-  display: block;
   width: 540px;
-  overflow: hidden;
+  display: block;
+}
+.heading-styles {
+  font-weight: 500;
+  color: #091133;
+  margin: 0;
 }
 /* ======================
          Header
@@ -42,11 +42,8 @@ body {
   background-repeat: no-repeat;
 }
 .top-header .content-block > h1 {
-  font-weight: 500;
   font-size: 50px;
-  color: #091133;
   height: 132px;
-  margin: 0;
 }
 .top-header .content-block {
   margin: 243px 0 0 11.12%;
@@ -112,8 +109,6 @@ body {
   width: 540px;
   height: 48px;
   font-size: 36px;
-  font-weight: 500;
-  color: #091133;
   margin: 160px 0 0 11.46%;
 }
 .mobile-login .setting-text{

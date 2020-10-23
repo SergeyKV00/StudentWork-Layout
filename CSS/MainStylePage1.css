@@ -122,22 +122,26 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.mobile-block_1, .mobile-block_2{
-  width: 255px;
+.main-mobile-group {
+  width: 540px;
   float: left;
   margin: 69px 0 0 11.46%;
 }
-.mobile-block_1 > h3, .mobile-block_2 > h3 {
+.mobile-group {
+  width: 255px;
+  float: left;
+}
+.mobile-group  > h3 {
   height: 26px;
   font-size: 16px;
   margin-top: 14px;
 }
-.mobile-block_1 > p, .mobile-block_2 > p {
+.mobile-group > p {
   font-size: 12px;
   margin-top: 6px;
   color: #5D6970;
 }
-.mobile-block_2 {
+.mobile-login .mobile-group:last-child {
   margin-left: 30px;
 }
 /*========================

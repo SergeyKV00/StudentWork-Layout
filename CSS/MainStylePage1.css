@@ -15,6 +15,21 @@ body {
   background-color: #FFD166;
   color: #111B47;
 }
+.setting-text > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #505F98;
+  margin-bottom: 0;
+}
+.block-span {
+  display: block;
+  width: 540px;
+}
+.content-block {
+  display: block;
+  width: 540px;
+  overflow: hidden;
+}
 /* ======================
          Header
 =========================*/
@@ -26,24 +41,15 @@ body {
   background-position: right;
   background-repeat: no-repeat;
 }
-.top-header > h1 {
+.top-header .content-block > h1 {
   font-weight: 500;
   font-size: 50px;
   color: #091133;
-  width: 539px;
   height: 132px;
+  margin: 0;
+}
+.top-header .content-block {
   margin: 243px 0 0 11.12%;
-}
-.top-header > span {
-  display: block;
-  width: 539px;
-  margin: 0 0 0 11.12%;
-}
-.setting-text > p {
-  font-weight: 400;
-  font-size: 18px;
-  color: #505F98;
-  margin-bottom: 0;
 }
 .header-nav {
   width: 77.08%;
@@ -79,7 +85,7 @@ body {
 #butUIKit, #butLearnMore {
   width: 189px;
   height: 36px;
-  margin: 69px 0 0 11.12%;
+  margin: 69px 0 0;
   font-size: 16px;
   padding: 7px 0 4px 0;
 }
@@ -111,8 +117,6 @@ body {
   margin: 160px 0 0 11.46%;
 }
 .mobile-login .setting-text{
-  display: block;
-  width: 540px;
   margin: 0 0 0 11.46%;
 }
 /*========================

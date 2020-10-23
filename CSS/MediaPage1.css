@@ -1,0 +1,83 @@
+/*=========================
+          Media
+==========================*/
+@media (max-width: 1280px) {
+  .top-header {
+    background: url(../Image/Group.png);
+    background-size: 40% auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 700px
+}
+  .mobile-login {
+    background-image: url('../Image/u.png');
+    background-size: 40% auto;
+    background-repeat: no-repeat;
+    background-position: 98.54% 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .top-header {
+    background: none;
+  }
+  .top-header .content-block {
+    margin: 243px auto;
+  }
+  .mobile-login {
+    background-image: none
+  }
+  .mobile-login-tittle {
+    margin: 160px auto 0 auto;
+  }
+  .mobile-login .content-block{
+    margin: 0 auto;
+  }
+  .main-mobile-group {
+    position: absolute;
+    left: 50%;
+    margin-left: -270px;
+  }
+}
+@media (max-width: 660px) {
+  #butBuyNow {
+    width: 100px;
+    height: 24px;
+  }
+  .header-nav {
+    width: 95.08%;
+    font-size: 13px;
+  }
+  .header-logo { font-size: 20px; }
+  .setting-text > p {
+    font-size: 16px;
+  }
+  .content-block {
+    width: 90%;
+  }
+  .top-header .content-block > h1 {
+    font-size: 36px;
+    height: auto;
+  }
+  #butUIKit, #butLearnMore {
+    width: 130px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .mobile-login-tittle {
+    width: 90%;
+    height: auto;
+    font-size: 30px;
+  }
+  .main-mobile-group {
+    position: static;
+    width: 90%;
+    margin: 20px 5% 0 5%;
+  }
+  .mobile-group {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .mobile-login .mobile-group:last-child {
+    margin-left: 0px;
+  }
+}

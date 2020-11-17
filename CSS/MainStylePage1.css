@@ -150,12 +150,125 @@ body {
  (-_-)(-_-)(-_-)(-_-)(-_-)
 ==========================*/
 
+/*Main content*/
 
+.main_content {
+  width: 100%;
+  height: auto;
+}
+.content_group {
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  height: 569px;
+  background-repeat: no-repeat;
+}
+
+.cBlock1 {
+  background-image: url('../Image/undraw_happy_news_hxmt.png');
+  background-position: 191px 122.44px;
+}
+
+.cBlock2{
+  background-image: url('../Image/undraw_social_influencer_sgsv.png');
+  background-position: 161px 91.76px;
+}
+
+.cBlock3{
+  background-image: url('../Image/undraw_mention_6k5d.png');
+  background-position: 209px 122.44px;
+}
+
+.content_group > div {
+  width: 445px;
+  height: 228px;
+  margin: 236px 0 0 830px;
+}
+
+.content_group .setting-text > p{
+  font-size: 16px;
+}
+
+.content_group .setting-text > h2{
+  font-size: 36px;
+}
+
+/*Pricing*/
+
+.pricing {
+  width: 100%;
+  height: 863px;
+  background-image: url('../Image/Rectangle.png'),
+  url('../Image/Path_2.png');
+  background-position: 50% 70px, 50% 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.pricing_block {
+  width: 600px;
+  height: 142px;
+  margin: 204.8px 420px 0 420px;
+}
+
+.pricing_block > p {
+  font-size: 16px;
+}
+
+.pricing h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.pricing_text {
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+}
+
+.pBlock1 {
+  width: 350px;
+  height: 92px;
+  margin: 36px 545px 0 545px;
+}
+
+.pBlock1 h2 {
+  font-size:  50px;
+}
+
+.pBlock1 p{
+  font-size: 16px;
+  color: #222F65;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.pBlock2 {
+  width: 350px;
+  height: 65px;
+  margin: 60px 0 0 545px;
+}
+
+.pBlock2 p{
+  font-size: 14px;
+  color: #5D6970;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+#butIUnknown {
+  width: 189px;
+  height: 32px;
+  margin: 9px 80.5px 0;
+}
 /*Footer*/
 
-.footer{
+.footer {
+  position: relative;
   width: 100%;
-  margin: 4412px 0 0 0;
+  margin: 0;
   height: 216px;
   background: #E7ECFF;
   overflow: hidden;
@@ -166,8 +279,8 @@ body {
   color: #37447E;
   font-size: 26px;
   font-weight: 900;
-  left: 47.12%;
-  right: 47.39%;
+  left: 681px;
+  right: 680px;
   height: 38px;
   margin-top: 61px;
 }
